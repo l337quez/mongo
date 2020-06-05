@@ -1,0 +1,3 @@
+si usas windows, hay que agregar mongo al path
+
+mongodump -d nombre_db -o ruta
