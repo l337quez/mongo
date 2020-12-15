@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"comidas.ingre_sauces"},{"v":{"$numberInt":"2"},"unique":true,"key":{"name":{"$numberInt":"1"}},"name":"name_1","background":true,"ns":"comidas.ingre_sauces"}],"uuid":"e445fef02f9c437f8bf687cef0840c4f"}

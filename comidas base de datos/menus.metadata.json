@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"comidas.menus"}],"uuid":"ce7a8e9d074f4660b5d0dd3e808c091c"}

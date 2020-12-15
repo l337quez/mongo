@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"comidas.typefoods"}],"uuid":"f704d3448185409ea7e8a4be85671c5f"}
