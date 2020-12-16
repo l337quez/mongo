@@ -13,6 +13,7 @@ sudo systemctl start mongodb.service
 sudo systemctl stop mongodb.service
 ```
 <br/>
+
 #### Entrar a la terminal de mongo
 ```
 mongo
@@ -30,11 +31,13 @@ No necesitamos entrar a mongo para hacer estas operaciones
 mongodump --db nombre_db -o ruta
 ```
 <br/>
+
 ### Importar base de datos
 ```
 mongorestore --db nombre_base_de_datos ruta_de_la_carpeta_con_la_db
 ```
 <br/>
+
 ### Importar una coleccion a la base de datos
 ```
 mongoimport --db nombre_base_de_datos --collection nombre_de_la_coleccion --type json --file ruta_nombrearchivo.json --jsonArray
