@@ -20,6 +20,7 @@ mongo
 <br/>
 <br/>
 <br/>
+
 ============================================================================
 
 si usas windows, hay que agregar mongo al path.
@@ -44,6 +45,7 @@ Nota: Si proporciona un solo documento, no utilice la opción --jsonArray.
 <br/>
 <br/>
 <br/>
+
 ============================================================================
 #### Trabajar con fechas en mongo
 http://rafinguer.blogspot.com/2014/10/fechas-en-mongodb.html
