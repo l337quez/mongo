@@ -14,6 +14,12 @@ sudo systemctl stop mongodb.service
 ```
 <br/>
 
+#### Habilitar el servicio de Mongo para siempre
+```
+sudo systemctl enable mongodb.service
+```
+<br/>
+
 #### Entrar a la terminal de mongo
 ```
 mongo
