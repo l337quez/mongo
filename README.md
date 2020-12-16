@@ -4,7 +4,7 @@
 http://rafinguer.blogspot.com/2014/10/fechas-en-mongodb.html
 
 
-### MOngo en GNU-LInux
+### MONGO EN GNU-LInux
 
 #### Activar el servicio de Mongo en GNU Linux
 sudo systemctl start mongodb.service
