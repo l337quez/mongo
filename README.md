@@ -16,7 +16,7 @@ sudo systemctl stop mongodb.service
 
 #### Habilitar el servicio de Mongo para siempre
 ```
-docker exec -i -t aqui_va_el_id /bin/bash
+sudo systemctl enable mongodb.service
 ```
 <br/>
 
