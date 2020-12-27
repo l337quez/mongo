@@ -42,6 +42,12 @@ mongodump --db nombre_db -o ruta
 ```
 mongorestore --db nombre_base_de_datos ruta_de_la_carpeta_con_la_db
 ```
+sino funciona intenta esto, dependiendo de la version hay comandos de que no funcionan y a partir cierta version ningnun comando funcionara y
+la funcionalidad pasara a un software llamado mongo-tools
+```
+mongorestore -d db_name /path/
+```
+
 <br/>
 
 ### Importar una coleccion a la base de datos
