@@ -67,3 +67,6 @@ Nota: Si proporciona un solo documento, no utilice la opción --jsonArray.
 ============================================================================
 #### Trabajar con fechas en mongo
 http://rafinguer.blogspot.com/2014/10/fechas-en-mongodb.html
+
+trabajando con fechas
+https://www.thecodebuzz.com/mongodb-date-range-query-greater-than-less-than/
