@@ -68,4 +68,6 @@ Nota: Si proporciona un solo documento, no utilice la opción --jsonArray.
 #### Trabajar con fechas en mongo
 http://rafinguer.blogspot.com/2014/10/fechas-en-mongodb.html
 
+https://rafinguer.blogspot.com/2014/10/fechas-en-mongodb.html
 
+https://www.ramoncarrasco.es/es/content/es/kb/126/como-hacer-consultas-en-mongodb-operadores
