@@ -6,3 +6,12 @@ buscar entre el rango de dos fechas,  el cambo que estasmos busando es el update
 
 trabajando con fechas
 https://www.thecodebuzz.com/mongodb-date-range-query-greater-than-less-than/
+
+
+</br>
+
+### hacer una agregacion usando Comppas
+
+https://www.mongodb.com/blog/post/introducing-the-aggregation-pipeline-builder-in-mongodb-compass?jmp=twt&utm_source=4244&utm_medium=TWITTER&utm_term=4&linkId=52424225
+
+</br>
