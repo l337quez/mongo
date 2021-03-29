@@ -11,7 +11,11 @@ https://www.thecodebuzz.com/mongodb-date-range-query-greater-than-less-than/
 </br>
 
 ### hacer una agregacion usando Comppas
+Haacemos click en la coleccion donde queremos hacer la agregacion, luego en la parte superior en las pestañas, hacemos click en agregacion, con esto le indicamos a compass que la agregacion la vamos hacer en esa coleccion que hicimos click.
 
+</br>
+
+Mas infogmacion:
 https://www.mongodb.com/blog/post/introducing-the-aggregation-pipeline-builder-in-mongodb-compass?jmp=twt&utm_source=4244&utm_medium=TWITTER&utm_term=4&linkId=52424225
 
 </br>
