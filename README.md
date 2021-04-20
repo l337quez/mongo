@@ -1,6 +1,7 @@
 
 
-### MONGO EN GNU-LInux
+### Guia de Mongo
+By: Ronal Forero
 
 ### Índice de contenidos
 * [Mongo en Linux](#item1)
