@@ -16,7 +16,7 @@ sudo systemctl start mongodb.service
 ```
 <br/>
 
-<a name="item2"></a>
+
 #### Reiniciar el servicio de Mongo
 ```
 sudo systemctl stop mongodb.service
