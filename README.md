@@ -3,12 +3,13 @@
 ### MONGO EN GNU-LInux
 
 ### Índice de contenidos
-* [Activar el servicio de Mongo en GNU Linux](#item1)
-* [Reiniciar el servicio de Mongo](#item2)
+* [Mongo en Linux](#item1)
+* [Restaurar o importar DB](#item2)
 * [Contenido 3](#item3)
 * [Contenido 4](#item4)
 
 <a name="item1"></a>
+### Mongo en Linux
 #### Activar el servicio de Mongo en GNU Linux
 ```
 sudo systemctl start mongodb.service
@@ -38,6 +39,8 @@ mongo
 
 ============================================================================
 
+<a name="item2"></a>
+### Restaurar o importar DB
 si usas windows, hay que agregar mongo al path.
 No necesitamos entrar a mongo para hacer estas operaciones
 ### Exportar base
