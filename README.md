@@ -2,12 +2,20 @@
 
 ### MONGO EN GNU-LInux
 
+### Índice de contenidos
+* [Activar el servicio de Mongo en GNU Linux](#item1)
+* [Reiniciar el servicio de Mongo](#item2)
+* [Contenido 3](#item3)
+* [Contenido 4](#item4)
+
+<a name="item1"></a>
 #### Activar el servicio de Mongo en GNU Linux
 ```
 sudo systemctl start mongodb.service
 ```
 <br/>
 
+<a name="item2"></a>
 #### Reiniciar el servicio de Mongo
 ```
 sudo systemctl stop mongodb.service
