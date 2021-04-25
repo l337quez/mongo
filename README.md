@@ -6,8 +6,8 @@ By: Ronal Forero
 ### Índice de contenidos
 * [Mongo en Linux](#item1)
 * [Restaurar o importar DB](#item2)
-* [Contenido 3](#item3)
-* [Contenido 4](#item4)
+* [Revisar indexacion de la base de datos](#item3)
+* [Indexado 2d](#item4)
 
 <a name="item1"></a>
 ### Mongo en Linux
@@ -52,6 +52,7 @@ mongodump --db nombre_db -o ruta
 ### Importar base de datos
 Importante: Para importar la una base de datos debe haber una carpeta llamada "dump" y dentro de esta deben estar todos los archivos, tambien debes conocer el nombre de la base de datos.
 <span style="color:red">Si la version de mongo es superio a la version 4, puedes cambiar el nombre de la base de datos, simplemente donde dice nombre_de_base_de_datos pones cualquier nombre</span> 
+ <span style="color:red">cardenasddddddddles</span>.
 
 ```
 mongorestore --db nombre_base_de_datos ruta_de_la_carpeta_con_la_db
@@ -75,7 +76,22 @@ Nota: Si proporciona un solo documento, no utilice la opción --jsonArray.
 <br/>
 <br/>
 <br/>
+<a name="item3"></a>
+### Revisar indexacion de la base de datos
+A veces suele ser necesario revisar que tipo de indexado tiene una coleccion, asi que con el siguiente comando lo podremos hacer.
+```
+db.nombre_coleccion.getIndexes()
+```
 
+<br/>
+
+<a name="item4"></a>
+### Indexado tipo 2d
+Este tipo de indexacion es para geolocaclizacion con altitude y latitude. Para indexar la coleccion debe usar el siguiente comando
+
+```
+db.nombre_de_la_coleccion.ensureIndex({"location": "2d"})
+```
 
 
 <br/>
