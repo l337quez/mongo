@@ -51,6 +51,7 @@ mongodump --db nombre_db -o ruta
 
 ### Importar base de datos
 Importante: Para importar la una base de datos debe haber una carpeta llamada "dump" y dentro de esta deben estar todos los archivos, tambien debes conocer el nombre de la base de datos.
+<span style="color:red">Si la version de mongo es superio a la version 4, puedes cambiar el nombre de la base de datos, simplemente donde dice nombre_de_base_de_datos pones cualquier nombre</span> 
 
 ```
 mongorestore --db nombre_base_de_datos ruta_de_la_carpeta_con_la_db
