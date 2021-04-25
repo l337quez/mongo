@@ -38,12 +38,11 @@ mongo
 <br/>
 <br/>
 
-============================================================================
 
 <a name="item2"></a>
 ### Restaurar o importar DB
 si usas windows, hay que agregar mongo al path.
-No necesitamos entrar a mongo para hacer estas operaciones
+No necesitamos entrar a Mongo para hacer estas operaciones
 ### Exportar base
 ```
 mongodump --db nombre_db -o ruta
@@ -76,7 +75,10 @@ Nota: Si proporciona un solo documento, no utilice la opción --jsonArray.
 <br/>
 <br/>
 
-============================================================================
+
+
+<br/>
+
 #### Trabajar con fechas en mongo
 http://rafinguer.blogspot.com/2014/10/fechas-en-mongodb.html
 
