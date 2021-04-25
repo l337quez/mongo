@@ -8,6 +8,7 @@ By: Ronal Forero
 * [Restaurar o importar DB](#item2)
 * [Revisar indexacion de la base de datos](#item3)
 * [Indexado 2d](#item4)
+* [Listar base de datos y colecciones](#item5)
 
 <a name="item1"></a>
 ### Mongo en Linux
@@ -94,8 +95,35 @@ Este tipo de indexacion es para geolocaclizacion con altitude y latitude. Para i
 db.nombre_de_la_coleccion.ensureIndex({"location": "2d"})
 ```
 
+<br/>
+
+<a name="item5"></a>
+### Listar base de datos y colecciones
+Entramos a mongo escribiendo mongo en la terminal.
+
+#### Listar base de datos
+```
+show dbs
+```
 
 <br/>
+
+#### Usar una base de datos
+```
+use dbs
+```
+
+<br/>
+
+#### Listar colecciones
+para ejecutar este comando debemos previamente haber escogido una base de datos.
+
+```
+show collections
+```
+
+<br/>
+
 
 #### Trabajar con fechas en mongo
 http://rafinguer.blogspot.com/2014/10/fechas-en-mongodb.html
