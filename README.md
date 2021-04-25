@@ -76,6 +76,7 @@ Nota: Si proporciona un solo documento, no utilice la opción --jsonArray.
 <br/>
 <br/>
 <br/>
+
 <a name="item3"></a>
 ### Revisar indexacion de la base de datos
 A veces suele ser necesario revisar que tipo de indexado tiene una coleccion, asi que con el siguiente comando lo podremos hacer.
