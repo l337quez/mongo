@@ -1,0 +1,10 @@
+
+Si queremos buscar los correos con coincidencias, por ejemplo buscar todos 
+los usuarios que tengan correo yahoo
+
+
+db.user.find({email:{ $regex : /@yahoo/, $options:"i"}}).pretty() 
+
+
+Si queremos contar cuantos documentos tienen ese correo
+db.user.find({email:{ $regex : /@yopmail/, $options:"i"}}).count()

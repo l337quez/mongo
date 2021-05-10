@@ -1,0 +1,1 @@
+db.workspecialties.update({}, { $pullAll: { workers_id: [ ObjectId("5f46fdb9aefae91600d12949"), ObjectId("5f46fd71aefae91600d12948") ]  } }, { multi: true} )

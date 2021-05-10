@@ -1,0 +1,14 @@
+ coleccion= user
+ campo a buscar = coinsOwned
+ 
+// aqui para ver todos los documentos que si tienen data en coinsOwned
+ db.user.find({coinsOwned: {$not: {$size:0} } }).pretty()
+
+ 
+ 
+// aqui para ver el numero de documentos que NO tienen el campo  coinsOwned (osea no tien dtos dentro del array)
+ db.user.find({coinsOwned:  {$size:0}  }).count()
+
+ 
+ // aqui para ver el numero de documentos que SI tienen el campo  coinsOwned 
+ db.user.find({coinsOwned: {$not: {$size:0} } }).count()

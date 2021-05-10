@@ -1,0 +1,8 @@
+
+Crear un indice de localizacion 2d. El campo location debe estar en la forma [ longitud, latitud ]
+
+db.nombre_coleccion.ensureIndex( { location : "2d"} )
+
+Para obtener los indices que ya tenga la coleccion
+
+db.nombre_coleccion.getIndexes()
