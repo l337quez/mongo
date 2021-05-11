@@ -2,13 +2,18 @@
 
 ### Guia de Mongo
 By: Ronal Forero
+<p align="center"><img src="https://github.com/l337quez/mongo/blob/master/img/og-meta-vnnknnoyi0.png?raw=true"></p>  
 
-### Índice de contenidos
+<br/>
+
+### Índice 
 * [Mongo en Linux](#item1)
 * [Restaurar o importar DB](#item2)
 * [Revisar indexacion de la base de datos](#item3)
 * [Indexado 2d](#item4)
 * [Listar base de datos y colecciones](#item5)
+
+<br/>
 
 <a name="item1"></a>
 ### Mongo en Linux
@@ -36,9 +41,6 @@ sudo systemctl enable mongodb.service
 mongo
 ```
 <br/>
-<br/>
-<br/>
-
 
 <a name="item2"></a>
 ### Restaurar o importar DB
@@ -73,6 +75,30 @@ mongoimport --db nombre_base_de_datos --collection nombre_de_la_coleccion --type
 ```
 
 Nota: Si proporciona un solo documento, no utilice la opción --jsonArray.
+
+<br/>
+
+### Exportar salida de una Query a CSV
+Si quieres guardar en un archivo csv la salida de una query, esta es una buena opcion. Yo usualmente hacia un script con la conexion a la base de datos, tambien usaba mongoose para hacer la query, usaba un script para convertir la salida en csv, pero hacer todo esto de una manera simplificada, es copiar un simple comando en la terminal y obtener el resultado en un archivo csv.
+
+<br/>
+
+**nombre_DB =** nombre de la base de datos que vamos a usar
+**nombre_archivo.js =** aqui puedes poner la ruta del archivo js donde esta la query o si estas posicionado en la rutas, podemos poner solo el nombre del archivo.
+**nombre_salida =** es el nombre que va adoptar el archivo de salida generado por Mongo.
+
+```
+mongo nombre_DB nombre_archivo.js > nombre_salida.csv
+```
+
+<br/>
+
+Ejemplo: Aqui un ejemplo sencillo de lo que tiene el archivo js. Debe tener la Query, pero esta debe ser en mongo directo. Vamos a suponer que existe una coleccion llamada users
+```
+db.users.find({name:1})
+```
+
+
 
 <br/>
 <br/>
