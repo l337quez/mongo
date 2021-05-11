@@ -9,6 +9,7 @@ By: Ronal Forero
 ### Índice 
 * [Mongo en Linux](#item1)
 * [Restaurar o importar DB](#item2)
+* [Exportar salida de una Query a CSV](#item2.1)
 * [Revisar indexacion de la base de datos](#item3)
 * [Indexado 2d](#item4)
 * [Listar base de datos y colecciones](#item5)
@@ -68,6 +69,7 @@ mongorestore -d db_name /path/
 
 <br/>
 
+<a name="item2.1"></a>
 ### Importar una coleccion a la base de datos
 
 ```
