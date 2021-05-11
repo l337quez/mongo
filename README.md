@@ -85,9 +85,9 @@ Si quieres guardar en un archivo csv la salida de una query, esta es una buena o
 
 <br/>
 
-**nombre_DB =** nombre de la base de datos que vamos a usar
-**nombre_archivo.js =** aqui puedes poner la ruta del archivo js donde esta la query o si estas posicionado en la rutas, podemos poner solo el nombre del archivo.
-**nombre_salida =** es el nombre que va adoptar el archivo de salida generado por Mongo.
+**nombre_DB =** nombre de la base de datos que vamos a usar  
+**nombre_archivo.js =** aqui puedes poner la ruta del archivo js donde esta la query o si estas posicionado en la rutas, podemos poner solo el nombre del archivo.  
+**nombre_salida =** es el nombre que va adoptar el archivo de salida generado por Mongo.  
 
 ```
 mongo nombre_DB nombre_archivo.js > nombre_salida.csv
