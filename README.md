@@ -9,7 +9,7 @@ By: Ronal Forero
 ### Índice 
 * [Mongo en Linux](#item1)
 * [Restaurar o importar DB](#item2)
-* [Exportar salida de una Query a CSV](#item2.1)
+* [Exportar salida de una Query MONGO a CSV](#item2.1)
 * [Revisar indexacion de la base de datos](#item3)
 * [Indexado 2d](#item4)
 * [Listar base de datos y colecciones](#item5)
@@ -80,7 +80,7 @@ Nota: Si proporciona un solo documento, no utilice la opción --jsonArray.
 <br/>
 
 <a name="item2.1"></a>
-### Exportar salida de una Query a CSV
+### Exportar salida de una Query MONGO a CSV
 Si quieres guardar en un archivo csv la salida de una query, esta es una buena opcion. Yo usualmente hacia un script con la conexion a la base de datos, tambien usaba mongoose para hacer la query, usaba un script para convertir la salida en csv, pero hacer todo esto de una manera simplificada, es copiar un simple comando en la terminal y obtener el resultado en un archivo csv.
 
 <br/>
