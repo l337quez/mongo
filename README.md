@@ -13,6 +13,7 @@ By: Ronal Forero
 * [Revisar indexacion de la base de datos](#item3)
 * [Indexado 2d](#item4)
 * [Listar base de datos y colecciones](#item5)
+* [Consultas a Mongo con JS](#consultas_con_js)
 
 <br/>
 
@@ -94,6 +95,23 @@ mongo nombre_DB nombre_archivo.js > nombre_salida.csv
 ```
 
 <br/>
+
+
+<a name="consultas_con_js"></a>
+### Hacer consultas a Mongo con JS
+Si no deseas usar un interprete como Moongose, entonces puedes hacer tus consultas con JS, es bastante comodo como para cuando necesitas hacer un script o algo para solucionar rapido. Puedes usar print, es como el console.log en Mongo. Lo demas lo puedes hacer con JS...
+
+<br/>
+
+**nombre_DB =** nombre de la base de datos que vamos a usar  
+**nombre_archivo.js =** aqui puedes poner la ruta del archivo js donde esta la query o si estas posicionado en la rutas, podemos poner solo el nombre del archivo.  
+
+```
+mongo nombre_DB nombre_archivo.js 
+```
+
+<br/>
+
 
 Ejemplo: Aqui un ejemplo sencillo de lo que tiene el archivo js. Debe tener la Query, pero esta debe ser en mongo directo. Vamos a suponer que existe una coleccion llamada users
 ```
