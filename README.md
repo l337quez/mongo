@@ -96,6 +96,13 @@ mongo nombre_DB nombre_archivo.js > nombre_salida.csv
 
 <br/>
 
+Ejemplo: Aqui un ejemplo sencillo de lo que tiene el archivo js. Debe tener la Query, pero esta debe ser en mongo directo. Vamos a suponer que existe una coleccion llamada users
+```
+db.users.find({name:1})
+```
+
+<br/>
+
 
 <a name="consultas_con_js"></a>
 ### Hacer consultas a Mongo con JS
@@ -113,14 +120,7 @@ mongo nombre_DB nombre_archivo.js
 <br/>
 
 
-Ejemplo: Aqui un ejemplo sencillo de lo que tiene el archivo js. Debe tener la Query, pero esta debe ser en mongo directo. Vamos a suponer que existe una coleccion llamada users
-```
-db.users.find({name:1})
-```
 
-
-
-<br/>
 <br/>
 <br/>
 
