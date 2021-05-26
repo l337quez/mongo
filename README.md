@@ -9,6 +9,7 @@ By: Ronal Forero
 ### Índice 
 * [Mongo en Linux](#item1)
 * [Restaurar o importar DB](#item2)
+* [Hacer un Backup de la DB](#item2.0)
 * [Exportar salida de una Query MONGO a CSV](#item2.1)
 * [Revisar indexacion de la base de datos](#item3)
 * [Indexado 2d](#item4)
@@ -80,6 +81,17 @@ mongoimport --db nombre_base_de_datos --collection nombre_de_la_coleccion --type
 ```
 
 Nota: Si proporciona un solo documento, no utilice la opción --jsonArray.
+
+<br/>
+
+<a name="item2.0"></a>
+### Hacre un Backup de una DB con clave
+Si tienes una Db con clave y deseas hacer un respaldo, debes tener las credenciales y ejecutar el siguiente comando
+
+```js
+mongodump --db coindorDB --username username --password password --authenticationDatabase admin --out BackupPath
+```
+
 
 <br/>
 
