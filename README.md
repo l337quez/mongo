@@ -128,17 +128,19 @@ Si no deseas usar un interprete como Moongose, entonces puedes hacer tus consult
 
 <br/>
 
-**gte =** Mayor o igual que
+**gte =** Mayor o igual que.   
+Ejemplo:
+
 ```js
 { createdAt:{$gte: new Date("2021-05-25T00:00:00Z") }
 ```
-$eq - equal - igual
-$lt - low than - menor que
-$lte - low than equal - menor o igual que
-$gt - greater than - mayor que
-$ne - not equal - distinto
-$in - in - dentro de
-$nin - not in - no dentro de
+$eq - equal - igual  
+$lt - low than - menor que  
+$lte - low than equal - menor o igual que  
+$gt - greater than - mayor que  
+$ne - not equal - distinto  
+$in - in - dentro de  
+$nin - not in - no dentro de  
 
 
 
