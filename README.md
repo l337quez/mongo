@@ -14,6 +14,9 @@ By: Ronal Forero
 * [Indexado 2d](#item4)
 * [Listar base de datos y colecciones](#item5)
 * [Consultas a Mongo con JS](#consultas_con_js)
+* [Operadores de Mongo](#operadores)
+
+
 
 <br/>
 
@@ -118,6 +121,24 @@ mongo nombre_DB nombre_archivo.js
 ```
 
 <br/>
+
+<a name="operadores"></a>
+### Operadores de Mongo
+Si no deseas usar un interprete como Moongose, entonces puedes hacer tus consultas con JS, es bastante comodo como para cuando necesitas hacer un script o algo para solucionar rapido. Puedes usar print, es como el console.log en Mongo. Lo demas lo puedes hacer con JS...
+
+<br/>
+
+**gte =** Mayor o igual que
+```js
+{ createdAt:{$gte: new Date("2021-05-25T00:00:00Z") }
+```
+$eq - equal - igual
+$lt - low than - menor que
+$lte - low than equal - menor o igual que
+$gt - greater than - mayor que
+$ne - not equal - distinto
+$in - in - dentro de
+$nin - not in - no dentro de
 
 
 
