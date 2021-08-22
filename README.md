@@ -72,6 +72,11 @@ la funcionalidad pasara a un software llamado mongo-tools
 mongorestore -d db_name /path/
 ```
 
+En caso de querer restaurar una base de datos, para no duplicarla. Debemos borrarla y luego restaurarla, con el siguiente comando, hacemos esas dos cosas
+```
+mongorestore --drop -d db_name /path/
+```
+
 <br/>
 
 ### Importar una coleccion a la base de datos
