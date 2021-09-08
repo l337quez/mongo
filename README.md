@@ -155,11 +155,18 @@ $eq - equal - igual
 $lt - low than - menor que  
 $lte - low than equal - menor o igual que  
 $gt - greater than - mayor que  
+$gte - greater than - mayor que  o igual que
 $ne - not equal - distinto  
 $in - in - dentro de  
 $nin - not in - no dentro de  
 
+<br/>
 
+**Buscar entre un rango de fechas**
+
+```js
+db.name_collection.find({$gte:ISODate('2021-01-03T01:02:27.409+00:00'), $lte:ISODate('2021-01-03T13:09:20.696+00:00')})
+```
 
 <br/>
 <br/>
