@@ -163,9 +163,10 @@ $nin - not in - no dentro de
 <br/>
 
 **Buscar entre un rango de fechas**
+Si queremos buscar data entre un rango de fechas, suponiendo que el campo de las fechas se llama createdAt
 
 ```js
-db.name_collection.find({$gte:ISODate('2021-01-03T01:02:27.409+00:00'), $lte:ISODate('2021-01-03T13:09:20.696+00:00')})
+db.name_collection.find({createdAt: {$gte:ISODate('2021-01-03T01:02:27.409+00:00')}, createdAt:{$lte:ISODate('2021-01-03T13:09:20.696+00:00')})
 ```
 
 <br/>
