@@ -16,7 +16,7 @@ By: Ronal Forero
 * [Listar base de datos y colecciones](#item5)
 * [Consultas a Mongo con JS](#consultas_con_js)
 * [Operadores de Mongo](#operadores)
-
+* [Buscar dentro de un string](#searchInString)
 
 
 <br/>
@@ -218,6 +218,23 @@ show collections
 
 <br/>
 
+<a name="searchInString"></a>
+Muchas veces vamos a necesitar buscar dentro de un campo de tipo string, por ejemplo queremos buscar en campo que se llama code, todos los documentos que tengan ACE796, entonces  si existe un documento que tenga en el campo codes: 000ACE796   lo va listar, ya que dentro del code esta la expresion regular ACE796. como por ejemplo: vamos a colocar la expresion regular entre //
+
+```
+db.nombre_de_la_coleccion.find({"code": /ACE796/})
+```
+
+<br/>
+
+En caso de querer buscar todos los campos code que contengan la expresion regular ACE796, pero con la condicion que delante de la misma no exista ningun caracter, entonces debemos hacer lo siguiente:
+
+```
+db.nombre_de_la_coleccion.find({"code": /^ACE796/i})
+```
+hemos agregado el caracter ^ y al final la letra i. esta query nos va traer todos los documentos donde la exprecion regular ACE796 se encuentre y que delante de la misma no exista ningun caracter.
+
+<br/>
 
 #### Trabajar con fechas en mongo
 http://rafinguer.blogspot.com/2014/10/fechas-en-mongodb.html
